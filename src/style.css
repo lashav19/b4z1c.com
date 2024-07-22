@@ -4,18 +4,6 @@
     text-align: center;
 }
 
-.flex-column{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 1em;
-}
-
-.center{
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
 
 .img{
     width: 800px;
