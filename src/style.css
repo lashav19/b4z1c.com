@@ -1,10 +1,14 @@
+
+
 .text-center{
     text-align: center;
 }
 
-.flex{
+.flex-column{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1em;
 }
 
 .center{
@@ -14,7 +18,8 @@
 }
 
 .img{
-    width: 200px;
+    width: 800px;
+    gap: 0px;
     border-radius: 20px;
 }
 
@@ -57,4 +62,8 @@
 }
 .bottom{
     margin-top: 5em;
+}
+
+@media screen and (max-width: 700px) {
+    
 }
